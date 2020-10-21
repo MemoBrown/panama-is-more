@@ -16,3 +16,21 @@
 html{
   font-size: 62.5%;
 }
+
+@font-face{
+  font-family: Objective-reg;
+  src: url(../../assets/Objective/Objective-Regular.otf);
+}
+@font-face{
+  font-family: Objective-bold;
+  src: url(../../assets/Objective/Objective-Bold.otf);
+}
+
+.hero{
+  background-color: var(--primary-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Objective;
+}
