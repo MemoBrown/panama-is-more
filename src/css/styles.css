@@ -1,0 +1,18 @@
+:root{
+  --primary-color: #59BDC5;
+  --second-color: #2C2A29;
+  --primary-color-light: #CEEBEE;
+  --gray-color: #E0DFDF;
+  --gray-color-light: #F4F4F4;
+  --poppins-font: 'Poppins', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
