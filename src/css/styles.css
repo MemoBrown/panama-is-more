@@ -4,7 +4,6 @@
   --primary-color-light: #CEEBEE;
   --gray-color: #E0DFDF;
   --gray-color-light: #F4F4F4;
-  --poppins-font: 'Poppins', sans-serif;
 }
 
 *{
@@ -19,18 +18,132 @@ html{
 
 @font-face{
   font-family: Objective-reg;
-  src: url(../../assets/Objective/Objective-Regular.otf);
+  src: url(../../assets/fonts/Objective-Regular.otf);
 }
 @font-face{
   font-family: Objective-bold;
-  src: url(../../assets/Objective/Objective-Bold.otf);
+  src: url(../../assets/fonts/Objective-Bold.otf);
+}
+@font-face{
+  font-family: Poppins-bold;
+  src: url(../../assets/fonts/Poppins-Bold.ttf);
 }
 
+/* ---------------------------------------------------------------------- */
+
+/* ----------------------------------------------- hero */
 .hero{
   background-color: var(--primary-color);
   height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   font-family: Objective;
 }
+.text-hero{
+  display: inherit;
+  flex-flow: column;
+  margin: 3rem;
+  padding: 4rem;
+  color: var(--second-color);
+  width: 50%;
+}
+.logo{
+  margin-bottom: 2rem;
+}
+.logo img{
+  width: 150px;
+}
+.hero-title{
+  font-family: Poppins-bold;
+  text-transform: uppercase;
+  font-size: 9rem;
+  margin-bottom: 2rem;
+}
+.hero-title span{
+  color: #fff
+}
+.hero-description{
+  font-size: 2.6rem;
+  font-family: Objective-reg;
+  margin: 1rem 0 3rem 0.5rem;
+}
+.hero-description strong{
+  text-transform: uppercase;
+}
+
+.hero form{
+  display: inherit;
+  flex-flow: column;
+  width: fit-content;
+  margin: 2rem 0.5rem;
+}
+/* form .input{
+  appearance: none;
+}
+.content-select{
+	max-width: 250px;
+  position: relative;
+}
+.content-select i{
+	position: absolute;
+	right: -120px;
+	top: calc(50% - 13px);
+	width: 16px;
+	height: 16px;
+	display: block;
+	border-left: 4px solid var(--second-color);
+  border-bottom: 4px solid var(--second-color);
+	transform: rotate(-45deg);
+	transition: all 0.25s ease;
+} */
+.input{
+  width: 40rem;
+  background-color: var(--primary-color-light);
+  border: 1px solid var(--primary-color-light);
+  border-radius: 6px;
+  height: 5rem;
+  margin: 1rem 0.5rem;
+  outline-color: var(--primary-color);
+  padding-left: 2rem;
+  font-size: 2rem;
+}
+::placeholder,
+select{
+  color: var(--second-color);
+  font-size: 2rem;
+  font-family: Objective-reg;
+}
+.submit{
+  height: 5rem;
+  width: 15rem;
+  border-radius: 6px;
+  background-color: #fff;
+  color: var(--primary-color);
+  font-family: Poppins-bold;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  margin: 2rem 0.5rem 0 0;
+  align-self: flex-end;
+  border: 1px solid var(--primary-color);
+  outline-color: var(--primary-color);
+  cursor: pointer;
+  transition: 300ms;
+}
+.submit:hover{
+  border: 1px solid #fff;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.hero-img{
+  height: 112%;
+  position: absolute;
+  right: 0;
+}
+.triangles img{
+  position: relative;
+  right: 104rem;
+  top: 65rem;
+  z-index: 10;
+  width: 200px;
+}
+/* ----------------------------------------------- hero */
