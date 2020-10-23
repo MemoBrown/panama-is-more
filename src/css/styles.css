@@ -390,3 +390,23 @@ ul li {
   cursor: pointer;
 }
 /* ------------------------------------------------------map */
+
+/* ------------------------------------------------------footer */
+.footer{
+  background-color: var(--gray-color-light);
+  color: var(--second-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 5rem 10rem;
+}
+.footer-img img{
+  width: 130px;
+}
+.footer-text{
+  font-size: 1.4rem;
+  text-align: center;
+  font-family: Objective-bold;
+}
+/* ------------------------------------------------------footer */
