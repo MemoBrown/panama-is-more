@@ -345,5 +345,16 @@ ul li {
   position: absolute;
   right: 45.7rem;
   top: 348.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2.8rem;
+  padding-top: 9rem;
+  font-family: Poppins-bold;
+  text-transform: uppercase;
+}
+.triangle p{
+  text-align: center;
 }
 /* -----------------------------------------amenities */
