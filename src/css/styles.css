@@ -77,25 +77,6 @@ html{
   width: fit-content;
   margin: 2rem 0.5rem;
 }
-/* form .input{
-  appearance: none;
-}
-.content-select{
-	max-width: 250px;
-  position: relative;
-}
-.content-select i{
-	position: absolute;
-	right: -120px;
-	top: calc(50% - 13px);
-	width: 16px;
-	height: 16px;
-	display: block;
-	border-left: 4px solid var(--second-color);
-  border-bottom: 4px solid var(--second-color);
-	transform: rotate(-45deg);
-	transition: all 0.25s ease;
-} */
 .input{
   width: 40rem;
   background-color: var(--primary-color-light);
@@ -358,3 +339,54 @@ ul li {
   text-align: center;
 }
 /* -----------------------------------------amenities */
+
+/* ------------------------------------------------------map */
+.map{
+  background-color: var(--primary-color);
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.map-img img{
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+.map-contact{
+  display: inherit;
+  justify-content: center;
+  flex-flow: column;
+  position: relative;
+  right: 10%;
+  color: var(--second-color);
+  font-size: 2rem;
+  font-family: Objective-reg;
+  margin-top: 2rem;
+}
+.map-title,
+.mail{
+  margin-bottom: 3rem;
+}
+.map-text{
+  margin-bottom: .4rem;
+}
+.btn-contact{
+  width: 25rem;
+  height: 4rem;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: var(--primary-color);
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 3rem;
+  outline-color: var(--primary-color);
+  transition: 300ms;
+}
+.btn-contact:hover{
+  color: #fff;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+/* ------------------------------------------------------map */
