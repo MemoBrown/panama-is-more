@@ -297,3 +297,53 @@ ul li {
   top: 215rem;
 }
 /* -----------------------------------models */
+
+/* -----------------------------------------amenities */
+.amenities{
+  background-color: var(--second-color);
+  height: 100vh;
+}
+.amenities-items{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 20% 20% 60%;
+}
+.amenities-title{
+  font-family: Poppins-bold;
+  text-transform: uppercase;
+  font-size: 6rem;
+  color: #fff;
+  margin-left: 3rem;
+  position: absolute;
+  padding: 15rem 0 0 6rem;
+}
+.amenities ul{
+  margin-left: 3rem;
+  padding-left: 3rem;
+}
+.amenities ul li{
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: Objective-reg;
+  margin: 3rem 3rem;
+  transition: 300ms;
+}
+.amenities ul li:hover{
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.amenities-img img{
+  clip-path: polygon(10% 0, 100% 0, 100% 90%, 60% 90%);
+  width: 100%;
+  height: 111vh;
+}
+.triangle{
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: var(--primary-color);
+  width: 380px;
+  height: 317px;
+  position: absolute;
+  right: 45.7rem;
+  top: 348.3rem;
+}
+/* -----------------------------------------amenities */
