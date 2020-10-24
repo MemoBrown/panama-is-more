@@ -1,0 +1,140 @@
+:root{
+  --primary-color: #59BDC5;
+  --second-color: #2C2A29;
+  --primary-color-light: #CEEBEE;
+  --gray-color: #E0DFDF;
+  --gray-color-light: #F4F4F4;
+}
+
+@media screen and (max-width: 1024px){
+  .hero{
+    width: 100%;
+  }
+  .text-hero {
+    margin: 2rem;
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+  }
+  .hero-title {
+    font-size: 4rem;
+  }
+  .hero form {
+    margin: 1rem 0.5rem;
+  }
+  .input {
+    width: 38rem;
+    margin: .5rem 0.5rem;
+  }
+  .triangles img {
+    right: 80rem;
+    top: 48rem;
+    z-index: 0;
+  }
+  .fam-img img {
+    left: -15rem;
+  }
+  .triangles2 img {
+    top: 48rem;
+    left: 0;
+  }
+  .text-container {
+    right: 3%;
+  }
+  .fam-title {
+    font-size: 4rem;
+  }
+  .fam-description {
+    font-size: 2rem;
+  }
+  .models h3 {
+    font-size: 2.5rem;
+  }
+  .models h3 span {
+    font-size: 4.5rem;
+  }
+  .model-img{
+    width: 50%;
+  }
+  .model-img img{
+    width: 100%;
+  }
+  .models-desc{
+    width: 50%;
+  }
+  .polygons img {
+    left: 87rem;
+    width: 100px;
+    top: 175rem;
+  }
+  .triangles3 img {
+    left: 1rem;
+    width: 150px;
+    top: 220rem;
+  }
+  .amenities-title {
+    font-size: 4rem;
+    padding: 10rem 0 0 3rem;
+  }
+  .amenities ul {
+    margin-left: 0rem;
+    padding-left: 3rem;
+  }
+  .amenities ul li {
+    font-size: 1.8rem;
+    margin: 3rem 0rem;
+  }
+  .polygons3 img {
+    left: 33rem;
+    top: 370rem;
+  }
+  .map-img{
+    width: 50%;
+  }
+  .map-img img{
+    width: 100%;
+    left: -216px;
+  }
+  .map-contact {
+    position: relative;
+    right: 1%;
+    font-size: 1.8rem;
+  }
+  .triangle {
+    width: 478px;
+    height: 409px;
+    right: 13.7rem;
+    top: 272.3rem;
+    font-size: 2rem;
+    padding: 7rem 6rem 0 0;
+  }
+  .polygons2 img {
+    left: 36rem;
+    top: 292rem;
+}
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 576px){
+
+}
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 426px){
+
+}
+
+@media screen and (max-width: 376px){
+
+}
+
+@media screen and (max-width: 320px){
+
+
+}
