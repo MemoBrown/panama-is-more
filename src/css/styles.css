@@ -323,17 +323,17 @@ ul li {
 .triangle{
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   background-color: var(--primary-color);
-  width: 500px;
+  width: 550px;
   height: 387px;
   position: absolute;
-  right: 38.7rem;
+  right: 30.7rem;
   top: 348.3rem;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   font-size: 2.8rem;
-  padding-top: 9rem;
+  padding: 7rem 8rem 0 0;
   font-family: Poppins-bold;
   text-transform: uppercase;
   z-index: 0;
