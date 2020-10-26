@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Guillermo Moreno / contact@memobrown.com">
   <link rel="icon" type="image/png" href="./assets/images/icon.png">
   <link rel="stylesheet" href="./src/css/styles.css">
   <link rel="stylesheet" href="./src/css/responsive.css">
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   <title>More</title>
 </head>
 <body>
-  <main class="hero">
+  <main class="hero headline">
     <div class="text-hero">
       <figure class="logo">
         <img src="./assets/images/logo.png" alt="Logo More">
@@ -23,7 +25,7 @@
         <input class="input" type="text" name="" id="" placeholder="Nombre *" required>
         <input class="input" type="text" name="" id="" placeholder="Apellido *" required>
         <input class="input" type="email" name="" id="" placeholder="Correo *" required>
-        <input class="input" type="tel" name="" id="" placeholder="Teléfono *" required>
+        <input class="input" type="tel" name="" id="" placeholder="Teléfono *" required onclick="sweetAlert()">
         <div class="content-select">
           <select class="input">
             <option value="0">Modelo de interés *</option>
@@ -44,7 +46,7 @@
     </figure>
   </main>
 
-  <section class="fam">
+  <section class="fam squares">
     <figure class="fam-img">
       <img src="./assets/images/fam2.png" alt="Familia">
     </figure>
@@ -61,7 +63,7 @@
     </div>
   </section>
 
-  <section class="models">
+  <section class="models squares">
     <div class="row">
       <h3 onclick="currentSlide(1)" class="model-name">Modelo<br><span>sky</span></h3>
 
@@ -176,7 +178,7 @@
     </figure>
   </section>
 
-  <section class="amenities">
+  <section class="amenities squares">
     <figure class="polygons2">
       <img src="./assets/images/polygons2.png" alt="">
     </figure>
@@ -315,7 +317,7 @@
     </div>
   </section>
 
-  <section class="map">
+  <section class="map headline">
     <figure class="polygons3">
       <img src="./assets/images/Group 5.png" alt="">
     </figure>
@@ -347,5 +349,11 @@
     </figure>
   </footer>
 </body>
+
 <script src="./src/js/index.js"></script>
+<script>
+  ScrollReveal().reveal('.squares', { delay: 300 });
+  ScrollReveal().reveal('.headline');
+</script>
+
 </html>
