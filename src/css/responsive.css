@@ -438,7 +438,24 @@
 }
 
 @media screen and (max-width: 426px){
-
+  .hero-title{
+    font-size: 2rem;
+  }
+  .hero-description {
+    font-size: 1.6rem;
+  }
+  .input {
+    width: 32rem;
+  }
+  .fam-img img{
+    left: -71%;
+  }
+  .amenities ul {
+    margin-left: 0rem;
+  }
+  .map-img img {
+    clip-path: polygon(0 0, 100% 0, 50% 50%, 0% 100%);
+  }
 }
 
 @media screen and (max-width: 376px){
