@@ -399,8 +399,41 @@
   .input{
     width: 34rem;
   }
+  .fam-img img{
+    left: -25rem;
+  }
+  .text-container {
+    right: 3%;
+  }
   .triangles2 img{
     display: none;
+  }
+  .row{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .triangles3 img{
+    display: none;
+  }
+  .models-desc{
+    width: 90%;
+  }
+  .amenities ul {
+    margin-left: 2rem;
+  }
+  .amenities ul li {
+    font-size: 1.5rem;
+    margin: 2rem 0rem;
+  }
+  .triangle {
+    top: 308rem;
+    width: 120px;
+    height: 120px;
+  }
+  .map-contact {
+    top: 40rem;
+  }
+  .map-img img{
+    clip-path: initial;
   }
 }
 
