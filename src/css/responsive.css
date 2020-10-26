@@ -1,6 +1,6 @@
 :root{
   --primary-color: #59BDC5;
-  --second-color: #2C2A29;
+  --second-color: #2c2a29;
   --primary-color-light: #CEEBEE;
   --gray-color: #E0DFDF;
   --gray-color-light: #F4F4F4;
@@ -337,6 +337,7 @@
   }
   .fam{
     display: block;
+    height: 100%;
   }
   .fam-img img{
     -moz-transform: scaleX(-1); /* Firefox */
@@ -350,6 +351,7 @@
   .text-container {
     position: initial;
     margin-top: 5rem;
+    padding-bottom: 10rem;
   }
   .fam-title{
     font-size: 3rem;
@@ -371,7 +373,7 @@
     display: none;
   }
   .triangle{
-    top: 312rem;
+    top: 318rem;
     z-index: 1;
     width: 150px;
     height: 150px;
@@ -380,11 +382,21 @@
     height: auto;
   }
   .map-img img{
-    clip-path: polygon(0 0, 100% 0, 50% 50%, 0% 100%);
-    height: 100%;
+    position: initial;
+    width: 100vw;
+    height: auto;
+    clip-path: initial;
+  }
+  .map-title{
+    font-size: 2.5rem;
   }
   .map-contact {
-    top: 40rem;
+    top: 22rem;
+    right: 12%;
+  }
+  .map{
+    height: 100%;
+    padding-bottom: 20rem;
   }
   .footer{
     width: 100%;
@@ -405,9 +417,6 @@
   .input{
     width: 34rem;
   }
-  /* .fam-img img{
-    left: -25rem;
-  } */
   .text-container {
     right: 3%;
   }
@@ -416,6 +425,13 @@
   }
   .row{
     grid-template-columns: repeat(3, 1fr);
+  }
+  .models-desc h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  .models-desc ul li {
+    font-size: 2rem;
   }
   .triangles3 img{
     display: none;
@@ -431,15 +447,27 @@
     margin: 2rem 0rem;
   }
   .triangle {
-    top: 308rem;
+    top: 294rem;
     width: 120px;
     height: 120px;
+  }
+  .triangle p {
+    font-size: 1.6rem;
   }
   .map-contact {
     top: 40rem;
   }
   .map-img img{
     clip-path: initial;
+  }
+  .map-contact {
+    top: 16rem;
+  }
+  .map-title {
+    font-size: 2.3rem;
+  }
+  .map-contact{
+    font-size: 1.6rem;
   }
 }
 
@@ -453,37 +481,84 @@
   .input {
     width: 32rem;
   }
-  /* .fam-img img{
-    left: -71%;
-  } */
   .amenities ul {
     margin-left: 0rem;
   }
-  .map-img img {
-    clip-path: polygon(0 0, 100% 0, 50% 50%, 0% 100%);
+  .triangle {
+    top: 290rem;
   }
+
 }
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 375px){
+  .hero-title {
+    font-size: 1.7rem;
+  }
+  .hero-description {
+    font-size: 1.5rem;
+  }
+  .input{
+    font-size: 1.6rem;
+  }
+  .input::placeholder{
+    font-size: 1.6rem;
+  }
   .text-hero{
     margin: 0;
   }
-  /* .fam-img img {
-    left: -95%;
-  } */
   .fam-title {
     font-size: 2rem;
   }
   .fam-description {
     font-size: 1.5rem;
   }
+  .triangle {
+    top: 281rem;
+  }
   .text-container{
     right: 7%;
     top: 72%;
   }
+  .map-contact {
+    right: 23%;
+  }
 }
 
 @media screen and (max-width: 320px){
-
-
+  .hero-title {
+    font-size: 1.3rem;
+  }
+  .hero-description {
+    font-size: 1.2rem;
+  }
+  .input {
+    width: 27rem;
+  }
+  .amenities ul li {
+    font-size: 1.1rem;
+    margin: 1.2rem 0rem;
+  }
+  .amenities ul {
+    padding-left: 1rem;
+  }
+  .amenities-title {
+    margin-left: 5rem;
+  }
+  .triangle {
+    top: 263rem;
+    width: 100px;
+    height: 100px;
+  }
+  .triangle p{
+    font-size: 1.3rem;
+  }
+  .map-title {
+    font-size: 2rem;
+  }
+  .map-contact{
+    font-size: 1.4rem;
+  }
+  .map-contact {
+    right: 34%;
+  }
 }

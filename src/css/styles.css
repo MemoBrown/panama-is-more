@@ -90,7 +90,7 @@ html{
 }
 ::placeholder,
 select{
-  color: var(--second-color);
+  color: rgba(44, 42, 41, 0.8);
   font-size: 2rem;
   font-family: Objective-reg;
 }
