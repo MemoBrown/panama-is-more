@@ -459,7 +459,22 @@
 }
 
 @media screen and (max-width: 376px){
-
+  .text-hero{
+    margin: 0;
+  }
+  .fam-img img {
+    left: -95%;
+  }
+  .fam-title {
+    font-size: 2rem;
+  }
+  .fam-description {
+    font-size: 1.5rem;
+  }
+  .text-container{
+    right: 7%;
+    top: 72%;
+  }
 }
 
 @media screen and (max-width: 320px){
