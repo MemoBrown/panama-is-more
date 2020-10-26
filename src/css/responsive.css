@@ -333,21 +333,26 @@
     font-size: 1.8rem;
   }
   .triangles2 img{
-    width: 150px;
-    top: 10rem;
-    left: 36rem;
+    display: none;
   }
   .fam-img img{
-    clip-path: polygon(0 0, 100% 0, 50% 50%, 0% 100%);
+    -moz-transform: scaleX(-1); /* Firefox */
+    -o-transform: scaleX(-1); /* Opera */
+    -webkit-transform: scaleX(-1); /* Chrome y Safari */
+    transform: scaleX(-1); /* w3org */
+    clip-path: polygon(0 0, 100% 0, 50% 51%, 0 100%);
     height: auto;
     left: -15rem;
   }
   .text-container {
-    right: 5%;
+    right: 20%;
     top: 63%;
   }
   .fam-title{
     font-size: 3rem;
+  }
+  .fam-title span{
+    color: #fff;
   }
   .fam-description{
     color: #fff;
@@ -387,7 +392,16 @@
 }
 
 @media screen and (max-width: 480px){
-
+  .hero-title {
+    font-size: 2.3rem;
+    color: #fff;
+  }
+  .input{
+    width: 34rem;
+  }
+  .triangles2 img{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 426px){
